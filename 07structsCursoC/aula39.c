@@ -9,6 +9,12 @@ int main(void){
         int minutos;
         int segundos; /* data */
     }; // está definido, mas não declarado
+    // usar typedef pode facilitar
+    // typedef struct{
+        // ...
+    // }horario;
+    // elimina a necessidade do struct antes 
+    // horario MeuHorario.
 
     struct horario agora; // declarado - agora é uma estrutura do tipo horario
     agora.horas = 15;
