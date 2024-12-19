@@ -22,7 +22,7 @@ void ordemCrescente(int vetor[], int n){
     int i, j, temporaria;
     
     for(i = 0; i < n; i++){
-        for(j =+ i; j < n; j++){
+        for(j = i + 1; j < n; j++){
             if(vetor[i] > vetor[j]){
                 temporaria = vetor[i];
                 vetor[i] = vetor[j];

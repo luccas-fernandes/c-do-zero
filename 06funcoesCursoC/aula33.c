@@ -8,6 +8,7 @@ double doubleVar = 100.123456789;
 
 int main(){
     // formatação variaveis inteiras
+    // ao colocar %% o compilador entende que quero de fato por % na tela.
     printf("Variavel inteira (%%d) = %d\n", intVar);
     printf("Variavel inteira (%%i) = %i\n", intVar);
     printf("Variavel inteira (%%x) = %o\n", intVar); //hexadecimal

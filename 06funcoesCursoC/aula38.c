@@ -22,3 +22,8 @@ void funcaoPrint(int x, int vetor[]){
     printf("Variavel int na funcao print = %d \n", x);
     printf("Vetor na funcao print = %d \n\n", vetor[1]);
 }
+
+// o valor é alterado no escopo da função, e como há um printf dentro 
+// tem-se o valor alterado na tela.
+// o que nao ocorre na main, tendo em vista q a main nao e capaz de 
+// enxergar a variavel no escopo da funcao

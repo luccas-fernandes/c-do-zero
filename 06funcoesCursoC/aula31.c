@@ -8,6 +8,7 @@ void teste(void){
     variavelLocalAutomatica *= 2;
 
     static int variavelLocalEstatica = 2; // variavel estatica com valor unico, logo não é zerada a cada execução.
+    // programa cria na primeira execução e não recria nas outras.
     variavelLocalEstatica *= 2;
 
     printf("%i \n", variavelLocalAutomatica);

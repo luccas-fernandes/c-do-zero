@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 void teste(void){
-    int variavel = 2; //variavel local = visivel apenas para esta função. automatica pelo fato de a cada vez que
+    int variavelLocalAutomatica = 2; //variavel local = visivel apenas para esta função. automatica pelo fato de a cada vez que
     // a função é chamada, ela é recriada.
-    variavel *= 2;
+    variavelLocalAutomatica *= 2;
     
-    printf("%i", variavel);
+    printf("%i\n", variavelLocalAutomatica);
 }
 
 

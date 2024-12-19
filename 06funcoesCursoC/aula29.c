@@ -11,7 +11,8 @@ float calcularAreaRetang(float base, float altura){
 int main (){
 
     float calcularAreaRetang(float x, float y);
-
+    // primeiro termo = o que retorna
+    // entre ( ) = o que recebe
     float area = calcularAreaRetang(10.0, 20.0);
 
     printf("A area eh: %.2f", area);
